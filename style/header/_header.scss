@@ -1,0 +1,260 @@
+.navbar {
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    .logo {
+        font-family: 'Lobster';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+        margin-top: 12.2px;
+
+        p {
+            display: inline-block;
+            color: #FF7426;
+        }
+    }
+
+    .navbar-nav {
+        gap: 60px;
+
+        li {
+            a {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: -0.02em;
+                color: #000000;
+            }
+        }
+    }
+
+    .icon {
+        a {
+            margin: 0px 20px;
+
+        }
+    }
+}
+
+header {
+    margin-top: 40px;
+
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 160px;
+        overflow: hidden;
+
+        .active {
+            min-width: 1180px;
+
+
+        }
+
+        .left {
+            width: 40px;
+            height: 600px;
+            background-color: #E7FAFE;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .right {
+            width: 40px;
+            height: 600px;
+            background-color: #E7FAFE;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .menu {
+            min-width: 1270px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            margin: 0px 12px;
+            position: relative;
+
+            .text {
+                width: 50%;
+                height: auto;
+                background: #E7FAFE;
+                padding: 50px;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+
+                .Hot-Recipes {
+                    width: 156px;
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 20px;
+                    background: #FFFFFF;
+                    border-radius: 30px;
+                    margin-bottom: 32px;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    p {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        letter-spacing: -0.02em;
+                        color: #000000;
+                        margin: 0px;
+                        margin-left: 13px;
+
+                    }
+
+
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 64px;
+                    line-height: 77px;
+                    letter-spacing: -0.04em;
+                    color: #000000;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: rgba(0, 0, 0, 0.6);
+                    opacity: 0.6;
+                    margin-bottom: 30px;
+                }
+
+                .timer {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    margin: 0px;
+                    padding: 0px;
+                    gap: 16px;
+                    margin-bottom: 104px;
+
+                    li {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+                        letter-spacing: -0.02em;
+                        color: rgba(0, 0, 0, 0.6);
+                        background: rgba(0, 0, 0, 0.05);
+                        border-radius: 30px;
+                        padding: 11px 16px;
+
+                        i {
+                            color: #000000;
+                            margin-right: 13px;
+                        }
+                    }
+
+                }
+
+                .user {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 0px;
+                    padding: 0px;
+
+                    ul {
+                        margin: 0px;
+                        padding: 0px;
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+
+                        li {
+
+                            h2 {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 19px;
+                                letter-spacing: -0.02em;
+                                color: #000000;
+                            }
+
+                            p {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 17px;
+                                letter-spacing: -0.02em;
+                                color: rgba(0, 0, 0, 0.6);
+                                margin: 0px;
+                                padding: 0px;
+                            }
+
+
+                        }
+
+
+                    }
+
+                    li {
+                        button {
+                            background: #000000;
+                            border-radius: 16px;
+                            padding: 21px 37px;
+                            border: none;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 17px;
+                            letter-spacing: -0.02em;
+                            color: #FFFFFF;
+
+                            i {
+                                margin-left: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .foto {
+                width: 50%;
+                height: auto;
+                margin: 0px;
+                padding: 0px;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-top-right-radius: 30px;
+                    border-bottom-right-radius: 30px;
+                }
+
+            }
+
+            .zor {
+                position: absolute;
+                top: 50px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .active {
+            height: 650px;
+        }
+    }
+}

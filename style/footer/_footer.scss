@@ -1,0 +1,93 @@
+footer {
+    .footer1 {
+        padding-bottom: 48px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        ;
+
+        .logo {
+            font-family: 'Lobster';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            color: #000000;
+            margin-top: 12.2px;
+            text-decoration: none;
+            margin-bottom: 16px;
+            padding: 0px;
+
+            p {
+                display: inline-block;
+                color: #FF7426;
+            }
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            justify-content: end;
+
+            li {
+                a {
+                    text-decoration: none;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: -0.02em;
+                    color: #000000;
+
+                }
+            }
+        }
+    }
+
+    .footer2 {
+        padding: 48px 0px;
+        
+
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            h1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            letter-spacing: -0.02em;
+            color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0px;
+
+            p {
+                color: #FF7967;
+            margin: 0;
+
+            }
+        }
+        }
+        .icon{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+
+
+}
